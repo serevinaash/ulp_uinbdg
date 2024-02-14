@@ -426,20 +426,25 @@ http://www.tooplate.com/view/2098-health
 }
 /* Add this to your existing CSS or in a new style section */
 .read-more-button {
-  width: 126px; /* Set the desired width */
-  height: 45px; /* Set the desired height */
-  background-color: #1B7C9D; /* Blue color */
+  width: 126px;
+  height: 45px;
+  background-color: #1B7C9D;
   margin-top: 10px;
-  margin-left: 50px; 
-  color: #fff; /* White text */
+  margin-left: 50px;
+  color: #fff;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition effect */
+  transition: background-color 0.3s black;
+  text-align: center; /* Center the text horizontally */
+  line-height: 45px; /* Center the text vertically */
+  display: inline-block; /* Ensure text alignment works */
+  text-decoration: none; /* Remove default underline for anchor */
 }
 
+
 .read-more-button:hover {
-  background-color: #2980b9; /* Darker blue color on hover */
+  background-color:  #155c7a; /* Darker blue color on hover */
 }
 
 
@@ -940,6 +945,7 @@ http://www.tooplate.com/view/2098-health
 
   .stories-info h5 {
     margin-bottom: 2px;
+    color : white;
   }
 
   .stories-info span {
@@ -959,7 +965,7 @@ http://www.tooplate.com/view/2098-health
 
   .copyright-text p,
   .footer-link a {
-    color: #858585;
+    color: white;
     font-size: 12px;
     font-weight: 500;
   }
@@ -979,7 +985,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .angle-up-btn a {
-    background: #ffffff;
+    background: white;
     border: 1px solid #f2f2f2;
     border-radius: 3px;
     font-size: 20px;
@@ -994,7 +1000,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .angle-up-btn a:hover {
-    background: #4267b2;
+    background: white;
     color:white;
     transform: translateY(-5px);
   }
