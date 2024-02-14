@@ -390,34 +390,71 @@ http://www.tooplate.com/view/2098-health
       HOME              
   -----------------------------------------*/
 
-  #home h1 {
-    color: #ffffff;
-    padding-bottom: 10px;
-    margin-top: 0;
-  }
-
   #home h3 {
-    color: #ffffff;
+    color: black;
+    margin-top: 124px;
+    margin-right: 174px;
+}
+
+.unit {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 204px;
+    margin-right: 174px;
+    margin-left: 50px;
+    align-text :justify;
+}
+.highlight-text {
+  color: #1B7C9D; 
+  
+ 
+}
+.unitt {
+  color: #gray;
+  margin-right: 174px;
+  margin-left: 50px;
+  align-text :justify;
+  
+}
+
+#home h5 {
+    color: black;
     font-size: 14px;
+    margin-left: 50px; 
     font-weight: normal;
-    line-height: inherit;
-    letter-spacing: 3px;
     text-transform: uppercase;
-    margin: 0;
-  }
+}
+/* Add this to your existing CSS or in a new style section */
+.read-more-button {
+  width: 126px; /* Set the desired width */
+  height: 45px; /* Set the desired height */
+  background-color: #1B7C9D; /* Blue color */
+  margin-top: 10px;
+  margin-left: 50px; 
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
 
-  .slider .container {
+.read-more-button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+
+.slider .container {
     width: 100%;
-  }
+}
 
-  .slider .owl-dots {
-      position: absolute;
-      top: 575px;
-      width: 100%;
-      justify-content: center;
-  }
+.slider .owl-dots {
+    position: absolute;
+    top: 575px;
+    width: 100%;
+    justify-content: center;
+}
 
-  .owl-theme .owl-dots .owl-dot span {
+.owl-theme .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
     margin: 5px 7px;
@@ -427,24 +464,24 @@ http://www.tooplate.com/view/2098-health
     -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 30px;
-  }
+}
 
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ffffff;
     border-color: transparent;
-  }
+}
 
-  .slider .caption {
+.slider .caption {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
-    background-color: rgba(20,20,20,0.2);
+    margin-left: 50px; 
     height: 100%;
-    color: #fff;
+    color: #black; 
     cursor: e-resize;
     position: relative;
-  }
+}
+
 
   .slider .item {
     background-position: inherit;
@@ -452,6 +489,9 @@ http://www.tooplate.com/view/2098-health
     background-attachment: local;
     background-size: cover;
     height: 650px;
+  }
+  .slider .item-first {
+    background-image: url(../images/bg.png);
   }
   /*---------------------------------------
       ABOUT              
@@ -1086,10 +1126,16 @@ http://www.tooplate.com/view/2098-health
 
     .angle-up-btn {
       bottom: 10em;
-    }
+    3
   }
 
   @media only screen and (max-width: 639px) {
+    .unit{
+      margin-left :10px;
+    }
+    .unitt{
+      margin-left :10px;
+    }
     h1 {
       font-size: 3em;
       line-height: 1.2em;
@@ -1104,6 +1150,12 @@ http://www.tooplate.com/view/2098-health
     #home h3 {
       font-size: 11px;
       letter-spacing: 1px;
+    }
+    #home h2 {
+      font-size: 11px;
+      letter-spacing: 1px;
+      margin-left :5px;
+
     }
 
   }
