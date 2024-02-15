@@ -14,13 +14,8 @@
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
      <link rel="stylesheet" href="assets/style.css"> <!-- Link to the external CSS file -->
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 
@@ -43,29 +38,26 @@
              </button>
          </div>
    
-         <!-- MENU LINKS -->
-         <div id="Home" class="collapse navbar-collapse">
-             <ul class="nav navbar-nav navbar-left">
-                 <li><a href="#home">Home</a></li>
-                 <li><a href="#tentang">Profile</a></li>
-   
-                 <!-- Updated dropdown structure for responsive design -->
-                 <li class="nav-item dropdown">
-                     <a href="#Service" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Service <b class="caret"></b></a>
-                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                         <li><a class="dropdown-item" href="#">Konseling</a></li>
-                         <li><a class="dropdown-item" href="#">Psikotes</a></li>
-                         <li><a class="dropdown-item" href="#">Uji Kompetensi</a></li>
-                     </ul>
-                 </li>
-   
-                 <li><a href="#Contact">Contact</a></li>
-             </ul>
-             <ul class="nav navbar-nav navbar-right">
-                 <li class="appointment-btn"><a href="Login.html">Login</a></li>
-             </ul>
-         </div>
-   
+                                <!-- MENU LINKS -->
+            <div id="Home" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tentang">Profile</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service/konseling.html">Konseling</a></li>
+                            <li><a href="service/psikotes.html">Psikotes</a></li>
+                            <li><a href="service/ujikompetensi.html">Uji Kompetensi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="appointment-btn"><a href="Login.html">Login</a></li>
+                </ul>
+            </div>
+
      </div>
  </section>
  
@@ -442,34 +434,35 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
-     
-     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
 
      <!-- Your other scripts below this line -->
-     
-     <script>
-         $(document).ready(function () {
-             $(window).scroll(function () {
-                 var scrollPos = $(document).scrollTop();
-                 var homeSectionHeight = $('#top').outerHeight();
-     
-                 if (scrollPos < homeSectionHeight) {
-                     // When in the Home section, set opacity to 0
-                     $('header').css('opacity', 0);
-                 } else {
-                     // For other sections, set a white background and full opacity
-                     $('header').css({
-                         'background-color': 'white',
-                         'opacity': 1
-                     });
-                 }
-             });
-         });
-     </script>
-     
- </script>
+     <!-- Your other scripts below this line -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>     
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var scrollPos = $(document).scrollTop();
+            var homeSectionHeight = $('#home').outerHeight();
 
-
+            if (scrollPos < homeSectionHeight) {
+                // When in the Home section, set background to transparent
+                $('.navbar').css({
+                    'background-color': 'transparent',
+                    'opacity': 0.8
+                });
+            } else {
+                // For other sections, set a white background and full opacity
+                $('.navbar').css({
+                    'background-color': 'white',
+                    'opacity': 1
+                });
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
