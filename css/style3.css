@@ -23,16 +23,16 @@ body {
 }
 
 .container button {
-  width: 120px;
-  height: 40px;
-  background-color: #90c8e8;
+  width: 400px;
+  height: 60px;
+  background-color: #24317f;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 32px;
   font-size: 18px;
   cursor: pointer;
-  margin-left: 150px;
-  margin-top: 35px; /* Adjusted margin-top value */
+  margin-left: 0;
+  margin-top: 10px; /* Adjusted margin-top value */
 }
 .container a {
   text-decoration: none;
@@ -41,7 +41,7 @@ body {
 
 .container .divider {
   position: absolute;
-  top: 380px;
+  top: 550px;
   left: 115px;
   width: 170px;
   height: 1px;
@@ -50,7 +50,7 @@ body {
 
 .container .or-text {
   position: absolute;
-  top: 370px;
+  top: 540px;
   left: 270px;
   background-color: #fff;
   padding: 0 10px;
@@ -58,7 +58,7 @@ body {
 
 .container .right-divider {
   position: absolute;
-  top: 380px;
+  top: 550px;
   left: 310px;
   width: 170px;
   height: 1px;
