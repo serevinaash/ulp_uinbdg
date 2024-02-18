@@ -10,7 +10,7 @@ body {
 }
 
 .container form {
-  top: 147px;
+  top: 127px;
   left: 8px;
 }
 .container label {
@@ -41,7 +41,7 @@ body {
 
 .container .divider {
   position: absolute;
-  top: 550px;
+  top: 490px;
   left: 115px;
   width: 170px;
   height: 1px;
@@ -50,7 +50,7 @@ body {
 
 .container .or-text {
   position: absolute;
-  top: 540px;
+  top: 480px;
   left: 270px;
   background-color: #fff;
   padding: 0 10px;
@@ -58,14 +58,14 @@ body {
 
 .container .right-divider {
   position: absolute;
-  top: 550px;
+  top: 490px;
   left: 310px;
   width: 170px;
   height: 1px;
   background-color: #000;
 }
 .container-login {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .container-login label {
   display: flex;
