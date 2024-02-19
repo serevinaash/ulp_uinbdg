@@ -6,25 +6,26 @@ body {
 
 .container {
   margin-left: 74px;
-  margin-top: 65px;
+  margin-top: 75px;
 }
 
 .container form {
-  top: 167px;
+  top: 117px;
   left: 8px;
 }
-.container label {
+.container input {
   display: block;
   width: 400px;
-  height: 60px;
+  height: 57px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   padding: 10px;
+  margin-top: -20px;
 }
 
 .container button {
   width: 400px;
-  height: 60px;
+  height: 57px;
   background-color: #24317f;
   color: #ffffff;
   border: none;
@@ -67,7 +68,7 @@ body {
   display: flex;
   align-items: center;
   width: 400px;
-  height: 60px;
+  height: 57px;
   margin-left: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -84,6 +85,9 @@ body {
 .container-login a {
   margin-left: 5px;
 }
+.selamat {
+  text-align: justify;
+}
 .container-login p {
   position: absolute;
   top: 545px;
@@ -92,7 +96,7 @@ body {
 }
 .back {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 20px;
   margin: 0;
   width: 50px;
